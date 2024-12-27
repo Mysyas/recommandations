@@ -35,7 +35,7 @@ st.set_page_config(layout="wide")
 st.header('Recommandation de plats')
 st.markdown('<p id="info"><strong>Remplissez dument les informations</strong></p>',unsafe_allow_html=True)
 with st.form('diet'):
-    st.write('<strong>Nom Utilisateur <i style="color: red">*</i></strong>',unsafe_allow_html=True)
+    st.write("<strong>Nom d'utilisateur</strong>",unsafe_allow_html=True)
     user=st.text_input('')
     col1,col2 = st.columns([1,2],gap='medium')
     with col1:
